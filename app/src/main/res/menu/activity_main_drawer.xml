@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/chart"
+            android:title="Emotion Graph" />
+        <item
+            android:id="@+id/nav_graph_2"
+            android:icon="@drawable/chart"
+            android:title="Multi Line Graph" />
+        <item
+            android:id="@+id/nav_graph_line"
+            android:icon="@drawable/chart"
+            android:title="Psychology" />
+    </group>
+
+    <item android:title="Album">
+        <menu>
+            <item
+                android:id="@+id/nav_angry"
+                android:icon="@drawable/anger"
+                android:title="Anger" />
+            <item
+                android:id="@+id/nav_sadness"
+                android:icon="@drawable/sad"
+                android:title="Sadness" />
+            <item
+                android:id="@+id/nav_neutral"
+                android:icon="@drawable/neutral"
+                android:title="Neutral" />
+            <item
+                android:id="@+id/nav_happiness"
+                android:icon="@drawable/happiness"
+                android:title="Happiness" />
+            <item
+                android:id="@+id/nav_surprise"
+                android:icon="@drawable/surprise"
+                android:title="Surprise" />
+        </menu>
+    </item>
+
+</menu>
