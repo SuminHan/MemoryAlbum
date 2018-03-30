@@ -47,10 +47,10 @@ float val = (float)(im.FACE_ANGER * -100 + im.FACE_FEAR * -50 + im.FACE_NEUTRAL 
 
 ## GeoCode & Recording
 - Exif Data
-  - latitude, longitude→ Convert to real address (Geocoder)
+  - latitude, longitude → Convert to real address (Geocoder)
   - datetime → shooting time (sorting)
 - Recording
-  - Record message to each post(instead of typing)
+  - Record message to each post (instead of typing)
 
 ## System Architecture
 - CRUD sqlite
